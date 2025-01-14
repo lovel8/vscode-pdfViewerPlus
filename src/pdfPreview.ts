@@ -144,7 +144,7 @@ export class PdfPreview extends Disposable {
 
     const body = `<body tabindex="1">
     <div id="outerContainer">
-
+      
       <div id="sidebarContainer">
         <div id="toolbarSidebar">
           <div id="toolbarSidebarLeft">
@@ -161,6 +161,7 @@ export class PdfPreview extends Disposable {
               <button id="viewLayers" class="toolbarButton" title="Show Layers (double-click to reset all layers to the default state)" tabindex="5" data-l10n-id="layers" role="radio" aria-checked="false" aria-controls="layersView">
                  <span data-l10n-id="layers_label">Layers</span>
               </button>
+              <button id="translateButton" title="Translate">Translate</button>
             </div>
           </div>
 
