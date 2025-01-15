@@ -1,9 +1,9 @@
 {
-  "name": "pdf",
-  "displayName": "vscode-pdf",
+  "name": "pdfviewrplus",
+  "displayName": "vscode-pdf-plus",
   "description": "Display pdf file in VSCode.",
-  "version": "1.2.2",
-  "publisher": "tomoki1207",
+  "version": "1.2.4",
+  "publisher": "lovel8",
   "engines": {
     "vscode": "^1.46.0"
   },
@@ -17,10 +17,10 @@
   "icon": "vscode-pdf.png",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tomoki1207/vscode-pdfviewer.git"
+    "url": "https://github.com/lovel8/vscode-pdfViewerPlus.git"
   },
   "bugs": {
-    "url": "https://github.com/tomoki1207/vscode-pdfviewer/issues"
+    "url": "https://github.com/lovel8/vscode-pdfViewerPlus/issues"
   },
   "activationEvents": [],
   "main": "./out/src/extension",
@@ -43,7 +43,7 @@
     "customEditors": [
       {
         "viewType": "pdf.preview",
-        "displayName": "Pdf Preview",
+        "displayName": "Pdf Preview Plus",
         "selector": [
           {
             "filenamePattern": "*.pdf"
