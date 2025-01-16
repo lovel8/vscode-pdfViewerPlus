@@ -2,7 +2,7 @@
   "name": "pdfviewrplus",
   "displayName": "vscode-pdf-plus",
   "description": "Display pdf file in VSCode.",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "publisher": "lovel8",
   "engines": {
     "vscode": "^1.46.0"
