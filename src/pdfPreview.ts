@@ -175,7 +175,6 @@ export class PdfPreview extends Disposable {
               <button id="viewLayers" class="toolbarButton" type="button" title="Show Layers (double-click to reset all layers to the default state)" tabindex="0" data-l10n-id="pdfjs-layers-button" role="radio" aria-checked="false" aria-controls="layersView">
                  <span data-l10n-id="pdfjs-layers-button-label">Layers</span>
               </button>
-              <button id="translateButton" title="Translate">Translate</button>
             </div>
           </div>
 
@@ -304,6 +303,9 @@ export class PdfPreview extends Disposable {
               </div>
               <div id="toolbarViewerRight" class="toolbarHorizontalGroup">
                 <div id="editorModeButtons" class="toolbarHorizontalGroup" role="radiogroup">
+                  <div id="editorTranslate" class="toolbarButtonWithContainer">
+                    <button id="translateButton" class="toolbarButton" type="button" title="Translate">trans</button>
+                  </div>
                   <div id="editorHighlight" class="toolbarButtonWithContainer">
                     <button id="editorHighlightButton" class="toolbarButton" type="button" disabled="disabled" title="Highlight" role="radio" aria-expanded="false" aria-haspopup="true" aria-controls="editorHighlightParamsToolbar" tabindex="0" data-l10n-id="pdfjs-editor-highlight-button">
                       <span data-l10n-id="pdfjs-editor-highlight-button-label">Highlight</span>
